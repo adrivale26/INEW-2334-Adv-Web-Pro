@@ -1,0 +1,33 @@
+{
+  "count": 4,
+  "data": [
+    {
+      "completed": false,
+      "due_date": "2026-10-01",
+      "id": 1,
+      "priority": "high",
+      "title": "Go to the doctor for physical"
+    },
+    {
+      "completed": true,
+      "due_date": "2026-09-24",
+      "id": 2,
+      "priority": "low",
+      "title": "Pickup dry cleaning"
+    },
+    {
+      "completed": false,
+      "due_date": "2026-10-05",
+      "id": 3,
+      "priority": "medium",
+      "title": "Take dog to the vet"
+    },
+    {
+      "completed": true,
+      "due_date": "2026-09-30",
+      "id": 4,
+      "priority": "low",
+      "title": "Buy groceries"
+    }
+  ]
+}

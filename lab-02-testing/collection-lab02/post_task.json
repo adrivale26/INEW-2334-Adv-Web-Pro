@@ -1,0 +1,10 @@
+{
+  "Message": "Task successfully created",
+  "data": {
+    "completed": false,
+    "due_date": "2026-09-30",
+    "id": 5,
+    "priority": "high",
+    "title": "Complete lab 2"
+  }
+}
