@@ -4,3 +4,5 @@
 # Python cache files
 __pycache__/
 *.pycs
+
+.DS_Store
