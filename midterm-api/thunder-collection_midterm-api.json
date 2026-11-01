@@ -1,0 +1,526 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "midterm-api",
+    "collectionId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+    "dateExported": "2026-11-01T19:04:14.546Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "474eb141-0ef8-4cdd-a6da-2a7018a64349",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "GET ALL BRANDS",
+            "url": "http://127.0.0.1:5000/api/brands",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2026-11-01T01:02:03.184Z",
+            "modified": "2026-11-01T01:02:03.185Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "009b5cf4-a2c5-473b-80a5-8d40421d636e",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "GET SINGLE BRAND",
+            "url": "http://127.0.0.1:5000/api/brands/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2026-11-01T01:03:13.194Z",
+            "modified": "2026-11-01T01:03:13.195Z",
+            "headers": []
+        },
+        {
+            "_id": "f9f1026e-3e2c-4595-8e09-937eaff2c795",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "GET SINGLE BRAND ERROR",
+            "url": "http://127.0.0.1:5000/api/brands/8",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2026-11-01T01:04:27.189Z",
+            "modified": "2026-11-01T01:04:27.190Z",
+            "headers": []
+        },
+        {
+            "_id": "01e5849d-929e-47b0-9343-6be1e9f1e03b",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD BRAND ERROR",
+            "url": "http://127.0.0.1:5000/api/brands",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2026-11-01T01:05:09.397Z",
+            "modified": "2026-11-01T01:05:09.397Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  ",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "910e3799-a268-425e-a775-fa7179606cef",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD BRAND ERROR 2",
+            "url": "http://127.0.0.1:5000/api/brands",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2026-11-01T01:07:38.447Z",
+            "modified": "2026-11-01T01:07:38.448Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": 123",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "dec90538-f4b4-4cc8-8bda-571d0171c157",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD BRAND ERROR 3",
+            "url": "http://127.0.0.1:5000/api/brands",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2026-11-01T01:09:51.237Z",
+            "modified": "2026-11-01T01:09:51.238Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Rare Beauty\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "a5aad5d3-a82e-4d69-b368-ed7b9dd402d1",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD BRAND",
+            "url": "http://127.0.0.1:5000/api/brands",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2026-11-01T01:11:01.011Z",
+            "modified": "2026-11-01T01:11:01.011Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Rhode\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "dfd4ebd7-8b4b-4f1b-aa1f-2dc8ab4a3aae",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "UPDATE BRAND",
+            "url": "http://127.0.0.1:5000/api/brands/5",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2026-11-01T01:11:57.085Z",
+            "modified": "2026-11-01T01:11:57.086Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Benefit Cosmetics\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "01c09e05-56ab-482c-9e84-a35b1ce3a760",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "UPDATE BRAND ERROR",
+            "url": "http://127.0.0.1:5000/api/brands/5",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2026-11-01T01:42:12.664Z",
+            "modified": "2026-11-01T01:42:12.666Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": 123",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "08b161aa-6c40-425a-926e-d5be518f9b79",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "DELETE BRAND",
+            "url": "http://127.0.0.1:5000/api/brands/1",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2026-11-01T01:46:23.710Z",
+            "modified": "2026-11-01T01:46:23.714Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "fecf7d3d-6649-4a17-81b5-740eeb85d66e",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "GET SINGLE PRODUCT",
+            "url": "http://127.0.0.1:5000/api/products/1",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2026-11-01T01:50:07.858Z",
+            "modified": "2026-11-01T01:50:07.859Z",
+            "headers": []
+        },
+        {
+            "_id": "8cfec049-1a54-4a8d-bd8f-6bd025c7c86c",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD PRODUCT ERROR",
+            "url": "http://127.0.0.1:5000/api/products",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2026-11-01T02:04:25.093Z",
+            "modified": "2026-11-01T02:04:25.093Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\":\"Slim Lip Pencil Lip Liner\", ",
+                    "  \"shade\":\"Mauve\", ",
+                    "  \"price\":5.99, ",
+                    "  \"quantity\": 0, ",
+                    "  \"status\":\"out of stock\",",
+                    "  \"brand_id\": 2",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "cb4bf961-753d-4ddf-80d4-1bdb787be6e0",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD PRODUCT",
+            "url": "http://127.0.0.1:5000/api/products",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2026-11-01T02:11:45.219Z",
+            "modified": "2026-11-01T02:11:45.219Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Buttermelt Pressed Powder Blush\",",
+                    "  \"shade\": \"My Butta Half\",",
+                    "  \"price\": 11,",
+                    "  \"quantity\": 32,",
+                    "  \"status\": \"in_stock\",",
+                    "  \"brand_id\": 2",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "0591b28e-ca11-4743-a860-9af7f2e40b2e",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "UPDATE PRODUCT DETAILS",
+            "url": "http://127.0.0.1:5000/api/products/2",
+            "method": "PUT",
+            "sortNum": 170000,
+            "created": "2026-11-01T02:16:14.366Z",
+            "modified": "2026-11-01T02:16:14.366Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"quantity\": 34,",
+                    "  \"status\": \"in_stock\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "968fabd7-9426-458c-b468-c66883c8f053",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "UPDATE PRODUCT ERROR",
+            "url": "http://127.0.0.1:5000/api/products/1",
+            "method": "PUT",
+            "sortNum": 200000,
+            "created": "2026-11-01T02:53:50.764Z",
+            "modified": "2026-11-01T02:53:50.764Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"status\": \"out_of_stock\"",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "85573e4d-e043-4518-9106-05aa9ffdcea0",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "DELETE SINGLE PRODUCT",
+            "url": "http://127.0.0.1:5000/api/products/6",
+            "method": "DELETE",
+            "sortNum": 210000,
+            "created": "2026-11-01T02:55:03.784Z",
+            "modified": "2026-11-01T02:55:03.785Z",
+            "headers": []
+        },
+        {
+            "_id": "34a0a30f-8f35-4015-a8be-fa765049bd8f",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "GET PRODUCT FILTER",
+            "url": "http://127.0.0.1:5000//api/products?status=out of stock",
+            "method": "GET",
+            "sortNum": 230000,
+            "created": "2026-11-01T03:44:29.048Z",
+            "modified": "2026-11-01T03:44:29.050Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "status",
+                    "value": "out of stock",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "f10f53c9-560a-435c-833b-045d53c049fe",
+            "colId": "a07b863e-afac-45de-a38d-f137fe6101e4",
+            "containerId": "",
+            "name": "ADD PRODUCT ERROR",
+            "url": "http://127.0.0.1:5000/api/products",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2026-11-01T17:04:12.812Z",
+            "modified": "2026-11-01T17:04:12.814Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\": \"Camo Liquid Blush\",",
+                    "  \"shade\": \"Bold-Faced Lilac\",",
+                    "  \"price\": -5.00,",
+                    "  \"quantity\": 29,",
+                    " \"status\": \"in stock\",",
+                    " \"brand_id\": 1",
+                    "}"
+                ],
+                "form": []
+            }
+        }
+    ],
+    "ref": "k8UawTviRBfJKhBLC0bOu_Z6gXlbNHHQjdQpAmdP04DXebs0uIN5Y8mJN2RgG5MMhrtW5P_UOIKm7ZinhHpScA"
+}

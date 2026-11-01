@@ -17,11 +17,11 @@ class Brand(db.Model):
 class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-    shade = db.Column(db.String(100), nullable=True)
+    shade = db.Column(db.String(100), nullable=True, unique=True)
     price = db.Column(db.Float, nullable=False)
     quantity = db.Column(db.Integer, nullable=False)
     status = db.Column(db.String(50), nullable=False) #status of product
-    brand_id = db.Column(db.Integer, db.ForeignKey(Brand.id), nullable=False)
+    brand_id = db.Column(db.Integer, db.ForeignKey(Brand.id))
    
 
     def to_dict(self):
